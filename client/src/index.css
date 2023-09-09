@@ -1,0 +1,54 @@
+/* Plus Jakarta Sans font family */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&family=Zen+Dots&display=swap');
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Zen Dots", sans-serif;
+}
+body{
+  padding-right: 0 !important;
+}
+/* upper setting are default settings */
+/* todo:- 
+   1.Update the below setting in the theme.js file
+*/
+
+/* scroll bar */
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px; /* Set width of scrollbar */
+  background-color: #18632a;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Set width of scrollbar */
+  scrollbar-color: #000000 #ffffff; /* Set color of scrollbar */
+}
+
+/* Set color of scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #1d1933;
+}
+
+* {
+  scrollbar-width: thin; /* Set width of scrollbar */
+  scrollbar-color: #1d1933 #ffffff; /* Set color of scrollbar */
+}
+
+/* Set color of scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #ffeb60;
+  border-radius: 50px;
+}
+
+
+/*  */
+.MuiMenu-paper{
+  background-color: #0D7F41 !important;
+}
